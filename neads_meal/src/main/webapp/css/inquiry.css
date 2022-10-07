@@ -1,0 +1,29 @@
+
+
+
+
+
+.file{
+    margin: 7px;
+}
+
+
+.line {
+    border-bottom: solid 1px gray;
+    padding: 5px;
+}
+
+
+
+
+.btn-back{
+    text-align: right;
+    top:20px
+}
+.btn-save{
+    top:20px
+}
+.textbox {
+    width: 150px;
+    
+}

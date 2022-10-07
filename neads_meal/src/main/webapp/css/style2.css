@@ -1,0 +1,219 @@
+/* shop css */
+#why-text{
+    text-align: center;
+}
+
+#rowcursor{
+    cursor: pointer;
+}
+
+#discount{
+
+font-size: 14px;
+color: #898989;
+
+text-decoration: line-through;
+}
+
+/* cart  */
+
+
+/* mypage */
+
+.my-info{
+    width: fit-content;
+}
+
+.my-info img{
+    height: 200px;
+}
+.my-info ul li{
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+}
+
+.recent-order-table-head{
+    border-top-style: double; 
+}
+
+.recent-order{
+    margin-top: 30px;
+}
+
+.recent-order-table td{
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.recent-view{
+    margin-top: 30px;
+    
+}
+
+.recent-view-table{
+    border-top-style: double;
+  
+}
+
+.my-info{
+    margin-bottom: 30px;
+    border-bottom-style: double;
+}
+
+.date-check{
+    margin-bottom: 20px;
+}
+
+.date-check input[type=button] {
+    width: 10%;
+
+}
+
+.date-check-calendar input[type=date]{
+    width: 27%;
+}
+
+
+
+
+/* my-account-modify2 */
+.my-account-modify{
+    height: auto;
+    text-align: center;
+    width: auto;
+}
+
+.my-account-modify input[type=text],  input[type=email], input[type=password] {
+    width: 100%;
+}
+
+.modify-btn{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.modify-btn input[type=submit],input[type=reset] {
+    width: 100px;
+    margin-right: 50px;    
+}
+
+.modify-btn input[type=button] {
+    width: 100px;
+    background-color: rgb(180, 43, 169);
+   
+}
+
+
+/* my-account-modify1 */
+.my_page_password1{
+    margin-top: 70px;
+    text-align: center;
+    text-decoration-style: solid;
+}
+
+.my_page_password-input{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.my_page_password-btn{
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+.my_page_password-btn input[type=button] {
+    margin-right: 30px;
+}
+
+
+.home_btn{
+    margin: auto;
+   text-align: center;
+}
+
+
+
+/* QnA */
+
+.QnA-table-head{
+    border-top-style: double; 
+}
+
+.QnA-table{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.my-info-QnA h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.info-date-check{
+    margin-bottom: 20px;
+}
+
+
+.info-date-check input[type=button] {
+    width: 10%;
+
+}
+
+.info-date-check-calendar input[type=date]{
+    width: 30%;
+}
+
+.QnA-table td{
+    width: 10%;
+}
+
+.QnA-table-header{
+    border-top-style: double; 
+}
+
+.info-QnA-Write{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 520px;
+}
+
+.info-QnA-Write input[type=button]{
+    width: 100px;
+    height: 30px;
+
+    
+}
+
+/* info-review */
+.my-info-review h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.info-review-Write{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 680px;
+}
+
+.Review-table-header{
+    border-top-style: double; 
+}
+
+.Review-table{
+    width: 90%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Review-table-title{
+    width: 50%;
+}

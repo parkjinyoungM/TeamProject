@@ -1,0 +1,46 @@
+
+
+.logo{
+ 
+    text-align: right;
+}
+
+.menu{
+    
+
+    margin: auto;
+    
+}
+
+.menu li {
+   padding:20px 35px 8px 16px;
+}
+
+
+
+.main-top{
+    background-color: white;
+}
+nav.navbar.bootsnav ul.nav li.active > a {
+    color:black
+}
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+    background-color: #b0b435;
+}
+nav.navbar.bootsnav li.dropdown ul{
+    border-bottom: solid 1px white;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+    color:white;
+    border-bottom: solid 1px white;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li:last-child > a{
+    border-bottom: solid 1px white;
+}
+
+nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before{
+      
+        margin-left: 50px;
+		
+    }

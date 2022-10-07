@@ -1,0 +1,147 @@
+.hov-in{
+ background: rgba(0,0,0, 0.5);
+}
+
+
+
+/* 광고 슬라이드 */
+
+
+
+
+
+/* 팝업창 */
+.modal-bg1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:  rgba(0,0,0, 0.6);
+    z-index: 999;
+}
+
+.modal-wrap1 {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: traslate(-50%,50%);
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 1000;
+}
+/* 팝업창 */
+
+
+/*   팝업  버튼 스타일  */
+.modal-close {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 80px auto 0;
+    line-height: 50px;
+    /* background: #333; */
+    text-align: center;
+    top: 370px;
+    left: 270px;
+    background-color: rgba(255,255,255, 0.10);
+    border:none;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*   팝업  버튼 스타일  */
+
+
+
+
+/* 광고 슬라이드 */
+
+
+.cover-slides1{
+   height: 50vh;
+}
+
+.cover-slides1 .container{
+     height: 100%;
+     position: relative;
+     z-index: 2;
+}
+
+.cover-slides1 .container > .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cover-slides1 .container > .row {
+    height: 100%;
+}
+
+.cover-slides1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #fff;
+}
+
+.cover-slides1 p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.cover-slides1 p a{
+    font-size: 24px;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.slides-navigation1 a {
+    background: #b0b435;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    line-height: 90px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+/* .slides-navigation1 a i{
+    font-size: 40px;
+}
+.slides-navigation1 a:hover {
+    background: #000000;
+} */
+
+
+/* reponsive */
+
+
+.cover-slides1 h1{
+    font-size: 28px;
+}
+.cover-slides1 p{
+    font-size: 16px;
+}
+.cover-slides1 p a{
+    font-size: 18px;
+}
+
+.cover-slides1 h1{
+    font-size: 28px;
+}
+.cover-slides1 p{
+    font-size: 16px;
+}
+.cover-slides1 p a{
+    font-size: 18px;
+}

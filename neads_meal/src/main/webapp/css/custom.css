@@ -1,0 +1,616 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+/* -------------------------------------------------------------- */
+/* 커뮤니티 테이블 */
+
+.boardTable{
+    text-align: center;
+    width: 800px;
+}
+
+.boardTable th{
+    background: gray;
+}
+
+/* 커뮤니티 좌측 리스트 */
+.list-group-tree .list-group-collapse .list-group {
+    margin-left: 25px;
+    border-left: 1px solid #ced4da;
+}
+.list-group-tree .list-group-item.active {
+    color: #b0b435;
+    background-color: #fff;
+    font-weight: 700;
+}
+.list-group-tree .list-group-collapse .list-group > .list-group-item::before {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    content: '';
+    width: 8px;
+    height: 1px;
+    background-color: #ced4da;
+}
+.list-group-tree .list-group-item:hover {
+    color: #b0b435;
+    background-color: #fff;
+    outline: 0;
+    font-weight: 700;
+}
+
+
+
+/* 게시판 버튼 */
+.commu[data-toggle="collapse"]::after {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 10px;
+    content: '';
+    -webkit-transition: top .2s,-webkit-transform .2s;
+    transition: top .2s,-webkit-transform .2s;
+    transition: transform .2s,top .2s;
+    transition: transform .2s,top .2s,-webkit-transform .2s;
+    font-family: FontAwesome;
+    content: "+";
+}
+/* --------------------- 커뮤니티 카테고리---------------------------------- */
+/* 중단부 이미지 */
+.com-top{
+    background: url("../images/slide.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    position: relative;
+}
+.com-top::before{
+    background: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.com-top h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    float: left;
+    padding: 10px 0px;
+}
+.com-top .breadcrumb{
+    background: #b0b435;
+    margin: 0px;
+    display: inline-block;
+    border-radius: 0px;
+    float: right;
+}
+.com-top .breadcrumb li{
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+}
+.com-top .breadcrumb li a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.com-top .breadcrumb-item + .breadcrumb-item::before{
+    color: #000000;
+}
+/* ---------------------------사이드바----------------------------------------------------- */
+
+/* 사이드바 리스트에 마우스 hover */
+.side-on li:hover{
+    background: cornflowerblue;
+}
+
+/* right sidebar */
+.iq-right-fixed {margin: 0 15px;}
+.right-sidebar-mini { 
+    top: 0px;
+    z-index: 100; 
+    position: fixed;
+    width: 300px;
+    right: 0; 
+    transition: all 0.5s ease; 
+    background: white;
+        
+}
+
+.right-sidebar-mini .side-left-icon { 
+    display: none; 
+}
+
+.right-sidebar-toggle { 
+    position: absolute;
+    margin-left: -44px; 
+    padding: 19px; 
+    display: inline; 
+    top: 50%;
+    z-index: 99; 
+    border-radius: 30px 0px 0px 30px; 
+    box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer; }
+.right-sidebar-panel { 
+    background-color: var(--iq-white); 
+    box-shadow: 0px 0px 25px 0px rgba(45, 69, 95, 0.1); 
+    height: 100vh; 
+    padding: 15px;
+}
+.right-sidebar-panel .media-height {max-height: 98vh; overflow-y: scroll;}
+
+/* 사이드바가 움직이는 거리 */
+.right-sidebar { 
+    transform: translateX(calc(111% + -2em));
+    /* transform: translateX(calc(10% + -1em));  */
+}
+.right-sidebar .side-right-icon {
+     display: none; 
+}
+.right-sidebar .side-left-icon { 
+    display: block;
+ }
+.right-sidebar-toggle span{
+    display: none !important;
+}  
+
+.side-on{
+    padding-top: 10px;
+    background-color: #b0b435;
+    text-align: center;
+}
+.side-on td{
+    padding-left: 15px;
+}
+.side-on li{
+    background: white;
+
+}
+.side-on button{
+    margin-right: 15px;
+}
+
+.side-on .btn-primary{
+    margin-left: 15px;
+}
+
+.not-login td{
+	padding-left: 55px;
+}
+/* ------------------------마이페이지---------------------------------- */
+
+/* shop css */
+#why-text{
+    text-align: center;
+}
+
+#rowcursor{
+    cursor: pointer;
+}
+
+#discount{
+
+font-size: 14px;
+color: #898989;
+
+text-decoration: line-through;
+}
+
+
+/* cart  */
+
+
+/* mypage */
+
+.my-info{
+    width: fit-content;
+}
+
+.my-info img{
+    height: 200px;
+}
+.my-info ul li{
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+}
+
+.recent-order-table-head{
+    border-top-style: double; 
+}
+
+.recent-order{
+    margin-top: 30px;
+}
+
+.recent-order-table td{
+    width: 10%;
+}
+
+.recent-view{
+    margin-top: 30px;
+    
+}
+
+.recent-view-table{
+    border-top-style: double;
+  
+}
+
+/* my-account-modify */
+.my-account-modify{
+    height: auto;
+    text-align: center;
+    width: auto;
+}
+
+.my-account-modify input[type=text],  input[type=email] {
+    width: 100%;
+}
+ 
+
+/* ------------------------------결제하기 */
+
+
+html{
+    min-width:100%;
+}
+
+/* 결제하기-------------------------------------- */
+
+
+
+#payment {
+    margin: 50px;
+    font-weight: bold;
+}
+
+.userInfo{
+    margin: 0px 20px 20px;
+}
+
+.userInfo td{
+    border-top: 1px solid black;
+    width: 1000px;
+}
+.userInfo .i_tab{
+    margin-left: 13.5px;
+}
+
+.userInfo .txt,.userInfo p{
+    /* margin-left: -400px; */
+    width: 200px;
+
+}
+.userInfo td{
+    width: 600px;
+}
+.userInfo .txtPlus, .userInfo .bt{
+    width: 200px;
+    margin-left: 50px;
+}
+.userInfo p{
+    font-size: 10px;
+}
+
+#payment .p_button{
+    margin-left: 45%;
+}
+
+#payNow{
+    margin: 40px;
+    text-align: center;
+}
+
+.t_tab{
+    padding-left: 19px;
+}
+.ck{
+    margin-left: 30%;
+}
+
+.userInfo .t-req{
+    width: 500px;
+}
+/* ------------------------결제완료------------------------------------------ */
+
+
+.jumun_t1{
+    width: 45%;
+}
+
+.jumun_t2{
+    width: 5%; 
+    text-align: center;
+    
+}
+.jumun_t3{
+    width: 8%; 
+    text-align: right;
+    
+}
+.jumun_t4{
+    width: 5%; 
+    text-align: right;
+    
+}
+.jumun_t5{
+    width: 10%; 
+    text-align: right;
+    
+}
+
+.jumun_tb th{
+    background-color: #b0b435;
+}
+
+.jumun_table_td{
+    height: 150px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.jumun_table_div{
+    display: inline-block;
+    padding: 10px;
+
+}
+.jumun_table_div:last-child{
+    margin-right: 50px;
+
+}
+
+.jumun_table_div p{
+    width: 15px;
+    font-size: 50px;
+}
+
+.end-pay{
+    width: 75%;
+    height: 800px;
+    background: white;
+    text-align: center;
+    margin: auto;
+}
+
+.end-pay div{
+    padding-top: 20%;
+}
+
+.end-pay div table{
+    margin-left: 30%; 
+    width: 400px;
+}
+	
+.end-pay div td{
+    border:1px solid cornflowerblue;
+}
+
+	
+			
+/* --------------------------메인 페이지 */
+				
+.best-mil{
+    margin: 100px 0px;
+}
+
+.hov-in{
+    background: rgba(0,0,0, 0.5);
+   }
+   
+.search-icon{
+	font-size: 25px;
+}   
+
+.form-control{
+	height: 34px;
+}
+   
+   /* 광고 슬라이드 */
+   
+   
+   
+   
+   
+   /* 팝업창 */
+   .modal-bg1{
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       right: 0;
+       background:  rgba(0,0,0, 0.6);
+       z-index: 999;
+   }
+   
+   .modal-wrap1 {
+       position: absolute;
+       top: 30%;
+       left: 75%;
+       transform: traslate(-50%,50%);
+       width: 300px;
+       height: 300px;
+       background-color: #fff;
+       z-index: 1000;
+   }
+   /* 팝업창 */
+   
+   
+   /*   팝업  버튼 스타일  */
+   .modal-close {
+       position: absolute;
+       width: 50px;
+       height: 50px;
+       margin: 80px auto 0;
+       line-height: 50px;
+       /* background: #333; */
+       text-align: center;
+       top: 370px;
+       left: 270px;
+       background-color: rgba(255,255,255, 0.10);
+       border:none;
+       color: black;
+       font-size: 17px;
+       cursor: pointer;
+   }
+   
+   /*   팝업  버튼 스타일  */
+   
+   
+   
+   
+   /* 광고 슬라이드 */
+   
+   
+   .cover-slides1{
+      height: 30vh;
+   }
+   
+   .cover-slides1 .container{
+        height: 100%;
+        position: relative;
+        z-index: 2;
+   }
+   
+   .cover-slides1 .container > .row {
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center;
+   }
+   
+   .cover-slides1 .container > .row {
+       height: 100%;
+   }
+   
+   .cover-slides1 h1{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 500;
+       font-size: 64px;
+       color: #fff;
+   }
+   
+   .cover-slides1 p{
+       font-size: 18px;
+       color: #fff;
+       padding-bottom: 30px;
+   }
+   
+   .cover-slides1 p a{
+       font-size: 24px;
+       color: #ffffff;
+       border: none;
+       text-transform: uppercase;
+       padding: 10px 20px;
+   }
+   
+   .slides-navigation1 a {
+       background: #b0b435;
+       position: absolute;
+       height: 70px;
+       width: 70px;
+       top: 50%;
+       font-size: 20px;
+       display: block;
+       color: #fff;
+       line-height: 90px;
+       text-align: center;
+       transition: all .3s ease-in-out;
+   }
+   
+   /* .slides-navigation1 a i{
+       font-size: 40px;
+   }
+   .slides-navigation1 a:hover {
+       background: #000000;
+   } */
+   
+   
+   /* reponsive */
+   
+   
+   .cover-slides1 h1{
+       font-size: 28px;
+   }
+   .cover-slides1 p{
+       font-size: 16px;
+   }
+   .cover-slides1 p a{
+       font-size: 18px;
+   }
+   
+   .cover-slides1 h1{
+       font-size: 28px;
+   }
+   .cover-slides1 p{
+       font-size: 16px;
+   }
+   .cover-slides1 p a{
+       font-size: 18px;
+   }
+					
+/* ----------------------------------헤더 */
+
+
+
+.logo{
+ 
+    text-align: right;
+}
+
+.menu{
+    
+
+    margin: auto;
+    
+}
+
+.menu li {
+   padding:20px 35px 8px 16px;
+}
+
+
+
+.main-top{
+    background-color: white;
+}
+nav.navbar.bootsnav ul.nav li.active > a {
+    color:black
+}
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+    background-color: #b0b435;
+}
+nav.navbar.bootsnav li.dropdown ul{
+    border-bottom: solid 1px white;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a {
+    color:white;
+    border-bottom: solid 1px white;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li:last-child > a{
+    border-bottom: solid 1px white;
+}
+
+/* ------------사이드바 로그아웃버튼 */
+
+.log-out{
+    font-size: 6px;
+    width: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.btn-my-page{
+    font-size: 6px;
+    width: 70px;
+
+}

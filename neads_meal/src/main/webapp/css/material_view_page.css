@@ -1,0 +1,29 @@
+.img_mealkit{ 
+   width: 30%;
+   aspect-ratio: 1/1;
+   padding-top:40px;
+   padding-left:60px;
+   padding-bottom:40px;
+}
+
+.img_mealkit_largest{ 
+   width: 91%;
+   aspect-ratio: 2/1.5;
+   padding-top:40px;
+   padding-left:60px;
+   padding-bottom:40px;
+}
+
+
+
+.margin-t-3px{
+   margin-top:10px;
+}
+
+
+.relation_product{
+   font-size: 20px;
+   font-weight: 700;
+   color: black;
+}
+
